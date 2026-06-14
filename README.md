@@ -23,20 +23,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ### Top LLM Firewalls & Guardrails (SaaS)
 
-| Product | Description | Pricing | Free Tier / Limits |
-| :--- | :--- | :--- | :--- |
-| **[Lakera Guard](https://lakera.ai/)** | Leading prompt injection defense with sub-50ms latency (acquired by Cisco/Check Point). | Tiered (Pro/Enterprise) | **Community Plan:** Free up to 10,000 API requests/month. |
-| **[Cloudflare Firewall for AI](https://www.cloudflare.com/ai-gateway/)** | Edge-based security gateway providing "one-click" protection and observability. | Free / Pro ($20/mo) | **Free Tier:** 100,000 logs/day and basic AI Gateway features. |
-| **[WhyLabs LLM Security](https://whylabs.ai/)** | Observability-first security platform with model monitoring and protection. | $50/mo per model (Expert) | **Free Account:** Basic observability is free; "Secure" features have a trial. |
-| **[Akamai Firewall for AI](https://www.akamai.com/)** | Enterprise security layer protecting against prompt injections and data leakage. | Usage-based | **Free Trial:** $100 Akamai Cloud credits for new users. |
-| **[Arthur AI (Shield)](https://www.arthur.ai/product/shield)** | Detection of hallucinations, PII, and toxicity with real-time guardrails. | From $60/mo | **Free Tier:** Available for developers; contact for specifics. |
-| **[NVIDIA NeMo Guardrails](https://www.nvidia.com/en-us/ai-data-science/generative-ai/nemo-framework/)** | Cloud-native NIMs for controlling LLM safety, topicality, and alignment. | $4,500/GPU/year (Enterprise) | **NVIDIA Build:** 1,000 free credits for developer testing. |
-| **[Bifrost (Maxim AI)](https://www.getmaxim.ai/)** | High-performance AI gateway with virtual keys and hierarchical budgets. | Free + Paid tiers | **Free Tier:** Available (no credit card required). |
-| **[CalypsoAI Moderator](https://calypsoai.com/)** | Advanced moderation platform with customizable policies and real-time monitoring. | Tiered subscriptions | **Contact Sales:** Short-term pilots and trials available. |
-| **[Lasso Security](https://lasso.security/)** | Comprehensive guardrails and threat detection for production LLM apps. | $39/mo (Standard) | **Contact Sales:** Free validation trials available. |
-| **[Protect AI](https://protectai.com/)** | Security platform for scanning models and providing runtime guardrails. | Custom Enterprise | **Trial:** 14-day free trial for the full platform. |
-| **[HiddenLayer](https://hiddenlayer.com/)** | MLDR platform providing threat detection for AI/ML models. | Custom Enterprise | **N/A:** Enterprise-only; contact for demo. |
-| **[Witness AI](https://witness.ai/)** | Network-layer visibility and semantic routing for enterprise AI. | ~$180/user/year | **N/A:** Focused on enterprise-scale deployments. |
+| Product | Description | Pricing | Free Tier / Limits | Company Size / Valuation |
+| :--- | :--- | :--- | :--- | :--- |
+| **[NVIDIA NeMo Guardrails](https://www.nvidia.com/en-us/ai-data-science/generative-ai/nemo-framework/)** | Cloud-native NIMs for controlling LLM safety, topicality, and alignment. | $4,500/GPU/year (Enterprise) | **NVIDIA Build:** 1,000 free credits for developer testing. | **$4.7T** (Market Cap) |
+| **[Cloudflare Firewall for AI](https://www.cloudflare.com/ai-gateway/)** | Edge-based security gateway providing "one-click" protection and observability. | Free / Pro ($20/mo) | **Free Tier:** 100,000 logs/day and basic AI Gateway features. | **$80B** (Market Cap) |
+| **[Akamai Firewall for AI](https://www.akamai.com/)** | Enterprise security layer protecting against prompt injections and data leakage. | Usage-based | **Free Trial:** $100 Akamai Cloud credits for new users. | **$16B** (Market Cap) |
+| **[Protect AI](https://protectai.com/)** | Security platform for scanning models and providing runtime guardrails. | Custom Enterprise | **Trial:** 14-day free trial for the full platform. | **$700M** (Acquired) |
+| **[Arthur AI (Shield)](https://www.arthur.ai/product/shield)** | Detection of hallucinations, PII, and toxicity with real-time guardrails. | From $60/mo | **Free Tier:** Available for developers; contact for specifics. | **$324M** (Valuation) |
+| **[Lakera Guard](https://lakera.ai/)** | Leading prompt injection defense with sub-50ms latency (acquired by Cisco/Check Point). | Tiered (Pro/Enterprise) | **Community Plan:** Free up to 10,000 API requests/month. | **$300M** (Acquired) |
+| **[Witness AI](https://witness.ai/)** | Network-layer visibility and semantic routing for enterprise AI. | ~$180/user/year | **N/A:** Focused on enterprise-scale deployments. | **$275M** (Valuation) |
+| **[HiddenLayer](https://hiddenlayer.com/)** | MLDR platform providing threat detection for AI/ML models. | Custom Enterprise | **N/A:** Enterprise-only; contact for demo. | **$271M** (Valuation) |
+| **[CalypsoAI Moderator](https://calypsoai.com/)** | Advanced moderation platform with customizable policies and real-time monitoring. | Tiered subscriptions | **Contact Sales:** Short-term pilots and trials available. | **$145M** (Acquired) |
+| **[Lasso Security](https://lasso.security/)** | Comprehensive guardrails and threat detection for production LLM apps. | $39/mo (Standard) | **Contact Sales:** Free validation trials available. | **$70M** (Valuation) |
+| **[Bifrost (Maxim AI)](https://www.getmaxim.ai/)** | High-performance AI gateway with virtual keys and hierarchical budgets. | Free + Paid tiers | **Free Tier:** Available (no credit card required). | **$8M** (Valuation) |
+| **[WhyLabs LLM Security](https://whylabs.ai/)** | Observability-first security platform with model monitoring and protection. | $50/mo per model (Expert) | **Free Account:** Basic observability is free; "Secure" features have a trial. | **Undisclosed** (Acquired) |
 
 ### Advanced & Specialized Platforms
 Other notable mentions include specialized enterprise suites from major security vendors like Palo Alto Networks (Prisma AIRS) and various cloud-native AI security modules.
