@@ -9,6 +9,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-LLM-Firewalls/stargazers"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-LLM-Firewalls?style=for-the-badge&color=white" alt="Forks"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-LLM-Firewalls?style=for-the-badge&color=blue" alt="License"></a>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome">
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow&style=for-the-badge" /></a>
 </p>
 
 ---
