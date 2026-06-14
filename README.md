@@ -45,42 +45,38 @@ Other notable mentions include specialized enterprise suites from major security
 
 ### Dedicated LLM Firewall & Guardrails Projects
 
-- **[LLM Guard](https://github.com/protectai/llm-guard)**  
-  Comprehensive open-source toolkit for detecting and preventing prompt injections, toxicity, PII leakage, and other LLM risks. Highly extensible and production-ready.
-
-- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)**  
-  Open-source toolkit for adding programmable guardrails to LLM applications, including topical rails, safety rails, and custom behaviors.
-
-- **[Outlines](https://github.com/outlines-dev/outlines)**  
-  Open-source library for guiding LLM outputs with regex, JSON schemas, and grammars — essential for safe and structured generation.
-
-- **[Rebuff](https://github.com/protectai/rebuff)**  
-  Open-source prompt injection detection and defense framework that learns from attacks over time.
-
-- **[LangChain Guardrails](https://github.com/langchain-ai/langchain)**  
+- **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
   Built-in guardrails and output parsers within the popular LangChain ecosystem for secure agent and chain execution.
 
-- **[Llama Guard](https://github.com/facebookresearch/llama-recipes)** (and official Meta releases)  
+- **[Llama Guard / PurpleLlama](https://github.com/meta-llama/PurpleLlama)** [![GitHub stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama?style=social&color=white)](https://github.com/meta-llama/PurpleLlama/stargazers)  
   Open-source safety classifier models and tools from Meta for content moderation and risk detection.
 
-- **[Presidio](https://github.com/microsoft/presidio)**  
+- **[Presidio](https://github.com/microsoft/presidio)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)  
   Microsoft’s open-source PII detection and anonymization toolkit, widely used to protect sensitive data in LLM pipelines.
 
-- **[NeMo Guardrails Examples](https://github.com/NVIDIA/NeMo-Guardrails)**  
-  Rich collection of production guardrail examples and templates.
+- **[Outlines](https://github.com/outlines-dev/outlines)** [![GitHub stars](https://img.shields.io/github/stars/outlines-dev/outlines?style=social&color=white)](https://github.com/outlines-dev/outlines/stargazers)  
+  Open-source library for guiding LLM outputs with regex, JSON schemas, and grammars — essential for safe and structured generation.
 
-- **[Guardrails AI](https://github.com/guardrails-ai/guardrails)**  
+- **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** [![GitHub stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers)  
   Open-source framework for adding structural and semantic guardrails to LLM outputs with validation and correction.
 
-- **[Prompt Security / Injection Detection Tools](https://github.com/search?q=prompt+injection+detection)**  
-  Multiple community projects focused on detecting and mitigating prompt injection attacks.
+- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
+  Open-source toolkit for adding programmable guardrails to LLM applications, including topical rails, safety rails, and custom behaviors.
+
+- **[LLM Guard](https://github.com/protectai/llm-guard)** [![GitHub stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
+  Comprehensive open-source toolkit for detecting and preventing prompt injections, toxicity, PII leakage, and other LLM risks. Highly extensible and production-ready.
+
+- **[Rebuff](https://github.com/protectai/rebuff)** [![GitHub stars](https://img.shields.io/github/stars/protectai/rebuff?style=social&color=white)](https://github.com/protectai/rebuff/stargazers)  
+  Open-source prompt injection detection and defense framework that learns from attacks over time.
 
 ### Additional Strong Open-Source Options
 
-- **[TextAttack](https://github.com/QData/TextAttack)** — Adversarial robustness testing and attack generation for LLMs.
+- **[TextAttack](https://github.com/QData/TextAttack)** [![GitHub stars](https://img.shields.io/github/stars/QData/TextAttack?style=social&color=white)](https://github.com/QData/TextAttack/stargazers) — Adversarial robustness testing and attack generation for LLMs.
+- **[NeMo Guardrails Examples](https://github.com/NVIDIA/NeMo-Guardrails)** — Rich collection of production guardrail examples and templates.
+- **[Prompt Security / Injection Detection Tools](https://github.com/search?q=prompt+injection+detection)** — Multiple community projects focused on detecting and mitigating prompt injection attacks.
 - **[AICL Guard](https://github.com/search?q=ai+content+moderation)** — Various content safety classifiers.
-- **[LangSmith / LangChain tracing** with custom guardrails.
-- **[Ollama + Guardrails** community integrations for local safe LLM deployment.
+- **[LangSmith / LangChain tracing]** with custom guardrails.
+- **[Ollama + Guardrails]** community integrations for local safe LLM deployment.
 - Many **RAG-specific guardrail** repositories for retrieval safety and output validation.
 
 **Frameworks for building custom firewalls**: Combine **LLM Guard**, **NeMo Guardrails**, **Outlines**, and **Guardrails AI** with **LangGraph** for comprehensive, production-grade LLM security layers.
