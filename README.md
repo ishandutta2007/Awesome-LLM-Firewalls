@@ -1,115 +1,122 @@
-# Awesome-LLM-Firewalls
-## Top LLM Firewalls & Guardrails Ecosystem
+# 🛡️ Awesome LLM Firewalls & Guardrails
+
+<p align="center">
+  <img src="banner.svg" alt="Awesome LLM Firewalls Banner" width="800">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Firewalls"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-LLM-Firewalls?style=for-the-badge&color=ffd700" alt="Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-LLM-Firewalls/stargazers"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-LLM-Firewalls?style=for-the-badge&color=white" alt="Forks"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-LLM-Firewalls?style=for-the-badge&color=blue" alt="License"></a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome">
+</p>
+
+---
+
+## 🚀 The Ultimate LLM Security & AI Guardrails Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on LLM Security, Prompt Protection & Output Guardrails*  
-**Last updated: March 2026**
+*Focused on Prompt Injection Protection, Output Moderation & LLM Security Operations (SecOps)*
 
-This repository tracks notable **SaaS platforms** and **open-source projects** building **LLM Firewalls & Guardrails**. These tools protect large language models from prompt injection, jailbreaking, toxic output, data leakage, hallucinations, and other security risks while ensuring safe, compliant, and reliable AI interactions.
+> [!IMPORTANT]
+> **LLM Security is an evolving field.** This repository tracks the best tools to protect your AI applications from prompt injection, toxic output, PII leakage, and hallucinations.
 
-**Examples** include Akamai Firewall for AI, CalypsoAI Moderator, Lakera Guard, Lasso Security, WhyLabs LLM Security, LLM Guard, and NVIDIA NeMo Guardrails (the category leaders). Tools listed here emphasize **real-time protection**, content moderation, policy enforcement, and observability for production LLM applications.
+### 🌐 Overview
+This repository provides a comprehensive directory of **LLM Firewalls**, **Guardrails**, and **AI Security Gateways**. Whether you are building an enterprise agent or a simple chatbot, these tools help ensure your LLM interactions are **safe, compliant, and reliable**.
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, local deployment, full customization, and complete control — ideal for developers and organizations building secure, sovereign LLM systems.
+---
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+## 📑 Table of Contents
+- [✨ SaaS Products](#saas-products)
+- [🛠️ Open-Source GitHub Projects](#open-source-github-projects)
+- [🤝 How to Contribute](#how-to-contribute)
+- [⚠️ Disclaimer](#disclaimer)
 
-## Table of Contents
-- [SaaS Products](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+---
 
-## SaaS Products
+## ✨ SaaS Products
 
-### Top LLM Firewalls & Guardrails (SaaS)
+### 🏆 Top LLM Firewalls & Guardrails (SaaS)
 
-| Product | Description | Pricing | Free Tier / Limits | Company Size / Valuation |
+| Product | 📝 Description | 💰 Pricing | 🎁 Free Tier / Limits | 🏢 Size / Valuation |
 | :--- | :--- | :--- | :--- | :--- |
-| **[NVIDIA NeMo Guardrails](https://www.nvidia.com/en-us/ai-data-science/generative-ai/nemo-framework/)** | Cloud-native NIMs for controlling LLM safety, topicality, and alignment. | $4,500/GPU/year (Enterprise) | **NVIDIA Build:** 1,000 free credits for developer testing. | **$4.7T** (Market Cap) |
-| **[Cloudflare Firewall for AI](https://www.cloudflare.com/ai-gateway/)** | Edge-based security gateway providing "one-click" protection and observability. | Free / Pro ($20/mo) | **Free Tier:** 100,000 logs/day and basic AI Gateway features. | **$80B** (Market Cap) |
-| **[Akamai Firewall for AI](https://www.akamai.com/)** | Enterprise security layer protecting against prompt injections and data leakage. | Usage-based | **Free Trial:** $100 Akamai Cloud credits for new users. | **$16B** (Market Cap) |
-| **[Protect AI](https://protectai.com/)** | Security platform for scanning models and providing runtime guardrails. | Custom Enterprise | **Trial:** 14-day free trial for the full platform. | **$700M** (Acquired) |
-| **[Arthur AI (Shield)](https://www.arthur.ai/product/shield)** | Detection of hallucinations, PII, and toxicity with real-time guardrails. | From $60/mo | **Free Tier:** Available for developers; contact for specifics. | **$324M** (Valuation) |
-| **[Lakera Guard](https://lakera.ai/)** | Leading prompt injection defense with sub-50ms latency (acquired by Cisco/Check Point). | Tiered (Pro/Enterprise) | **Community Plan:** Free up to 10,000 API requests/month. | **$300M** (Acquired) |
-| **[Witness AI](https://witness.ai/)** | Network-layer visibility and semantic routing for enterprise AI. | ~$180/user/year | **N/A:** Focused on enterprise-scale deployments. | **$275M** (Valuation) |
-| **[HiddenLayer](https://hiddenlayer.com/)** | MLDR platform providing threat detection for AI/ML models. | Custom Enterprise | **N/A:** Enterprise-only; contact for demo. | **$271M** (Valuation) |
-| **[CalypsoAI Moderator](https://calypsoai.com/)** | Advanced moderation platform with customizable policies and real-time monitoring. | Tiered subscriptions | **Contact Sales:** Short-term pilots and trials available. | **$145M** (Acquired) |
-| **[Lasso Security](https://lasso.security/)** | Comprehensive guardrails and threat detection for production LLM apps. | $39/mo (Standard) | **Contact Sales:** Free validation trials available. | **$70M** (Valuation) |
-| **[Bifrost (Maxim AI)](https://www.getmaxim.ai/)** | High-performance AI gateway with virtual keys and hierarchical budgets. | Free + Paid tiers | **Free Tier:** Available (no credit card required). | **$8M** (Valuation) |
-| **[WhyLabs LLM Security](https://whylabs.ai/)** | Observability-first security platform with model monitoring and protection. | $50/mo per model (Expert) | **Free Account:** Basic observability is free; "Secure" features have a trial. | **Undisclosed** (Acquired) |
+| **[NVIDIA NeMo Guardrails](https://www.nvidia.com/en-us/ai-data-science/generative-ai/nemo-framework/)** | Cloud-native NIMs for controlling LLM safety and alignment. | $4,500/GPU/year | **1,000 free credits** | **$4.7T** (Market Cap) |
+| **[Cloudflare Firewall for AI](https://www.cloudflare.com/ai-gateway/)** | Edge-based security gateway providing protection and observability. | Free / $20/mo | **100,000 logs/day** | **$80B** (Market Cap) |
+| **[Akamai Firewall for AI](https://www.akamai.com/)** | Enterprise layer protecting against injections and leakage. | Usage-based | **$100 credits** | **$16B** (Market Cap) |
+| **[Protect AI](https://protectai.com/)** | Scanning models and providing runtime guardrails. | Custom Enterprise | **14-day trial** | **$700M** (Acquired) |
+| **[Arthur AI (Shield)](https://www.arthur.ai/product/shield)** | Detection of hallucinations and toxicity with guardrails. | From $60/mo | **Available** | **$324M** (Valuation) |
+| **[Lakera Guard](https://lakera.ai/)** | Leading prompt injection defense with sub-50ms latency. | Tiered (Pro/Ent) | **10,000 reqs/mo** | **$300M** (Acquired) |
+| **[Witness AI](https://witness.ai/)** | Network-layer visibility and semantic routing. | ~$180/user/yr | **N/A** | **$275M** (Valuation) |
+| **[HiddenLayer](https://hiddenlayer.com/)** | MLDR platform providing threat detection for AI/ML. | Custom Enterprise | **N/A** | **$271M** (Valuation) |
+| **[CalypsoAI Moderator](https://calypsoai.com/)** | Advanced moderation with customizable policies. | Tiered subs | **Contact Sales** | **$145M** (Acquired) |
+| **[Lasso Security](https://lasso.security/)** | Comprehensive guardrails and threat detection. | $39/mo (Std) | **Free trials** | **$70M** (Valuation) |
+| **[Bifrost (Maxim AI)](https://www.getmaxim.ai/)** | High-performance AI gateway with virtual keys. | Free + Paid | **Free Tier** | **$8M** (Valuation) |
+| **[WhyLabs LLM Security](https://whylabs.ai/)** | Observability-first security platform. | $50/mo per model | **Free Account** | **Undisclosed** |
 
-### Advanced & Specialized Platforms
-Other notable mentions include specialized enterprise suites from major security vendors like Palo Alto Networks (Prisma AIRS) and various cloud-native AI security modules.
+---
 
-## Open-Source GitHub Projects
+## 🛠️ Open-Source GitHub Projects
 
-### Dedicated LLM Firewall & Guardrails Projects
+### 🔒 Dedicated LLM Firewall & Guardrails Projects
 
-- **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)  
+- **[LangChain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers) 🦜  
   Built-in guardrails and output parsers within the popular LangChain ecosystem for secure agent and chain execution.
 
-- **[Llama Guard / PurpleLlama](https://github.com/meta-llama/PurpleLlama)** [![GitHub stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama?style=social&color=white)](https://github.com/meta-llama/PurpleLlama/stargazers)  
+- **[Llama Guard / PurpleLlama](https://github.com/meta-llama/PurpleLlama)** [![GitHub stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama?style=social&color=white)](https://github.com/meta-llama/PurpleLlama/stargazers) 🦙  
   Open-source safety classifier models and tools from Meta for content moderation and risk detection.
 
-- **[Presidio](https://github.com/microsoft/presidio)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers)  
-  Microsoft’s open-source PII detection and anonymization toolkit, widely used to protect sensitive data in LLM pipelines.
+- **[Presidio](https://github.com/microsoft/presidio)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/presidio?style=social&color=white)](https://github.com/microsoft/presidio/stargazers) 🔍  
+  Microsoft’s open-source PII detection and anonymization toolkit for LLM pipelines.
 
-- **[Outlines](https://github.com/outlines-dev/outlines)** [![GitHub stars](https://img.shields.io/github/stars/outlines-dev/outlines?style=social&color=white)](https://github.com/outlines-dev/outlines/stargazers)  
-  Open-source library for guiding LLM outputs with regex, JSON schemas, and grammars — essential for safe and structured generation.
+- **[Outlines](https://github.com/outlines-dev/outlines)** [![GitHub stars](https://img.shields.io/github/stars/outlines-dev/outlines?style=social&color=white)](https://github.com/outlines-dev/outlines/stargazers) 📐  
+  Guided text generation with regex and JSON schemas for safe and structured output.
 
-- **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** [![GitHub stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers)  
-  Open-source framework for adding structural and semantic guardrails to LLM outputs with validation and correction.
+- **[Guardrails AI](https://github.com/guardrails-ai/guardrails)** [![GitHub stars](https://img.shields.io/github/stars/guardrails-ai/guardrails?style=social&color=white)](https://github.com/guardrails-ai/guardrails/stargazers) ⚖️  
+  Framework for structural and semantic validation of LLM outputs.
 
-- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)  
-  Open-source toolkit for adding programmable guardrails to LLM applications, including topical rails, safety rails, and custom behaviors.
+- **[NVIDIA NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers) 🟢  
+  Programmable guardrails for conversational systems, including topical and safety rails.
 
-- **[LLM Guard](https://github.com/protectai/llm-guard)** [![GitHub stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)  
-  Comprehensive open-source toolkit for detecting and preventing prompt injections, toxicity, PII leakage, and other LLM risks. Highly extensible and production-ready.
+- **[LLM Guard](https://github.com/protectai/llm-guard)** [![GitHub stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers) 🛡️  
+  Comprehensive toolkit for detecting prompt injections, toxicity, and PII leakage.
 
-- **[Rebuff](https://github.com/protectai/rebuff)** [![GitHub stars](https://img.shields.io/github/stars/protectai/rebuff?style=social&color=white)](https://github.com/protectai/rebuff/stargazers)  
-  Open-source prompt injection detection and defense framework that learns from attacks over time.
+- **[Rebuff](https://github.com/protectai/rebuff)** [![GitHub stars](https://img.shields.io/github/stars/protectai/rebuff?style=social&color=white)](https://github.com/protectai/rebuff/stargazers) 🥊  
+  Multi-layer prompt injection detection and defense framework.
 
-### Additional Strong Open-Source Options
+### ➕ Additional Strong Open-Source Options
 
-- **[TextAttack](https://github.com/QData/TextAttack)** [![GitHub stars](https://img.shields.io/github/stars/QData/TextAttack?style=social&color=white)](https://github.com/QData/TextAttack/stargazers) — Adversarial robustness testing and attack generation for LLMs.
-- **[NeMo Guardrails Examples](https://github.com/NVIDIA/NeMo-Guardrails)** — Rich collection of production guardrail examples and templates.
-- **[Prompt Security / Injection Detection Tools](https://github.com/search?q=prompt+injection+detection)** — Multiple community projects focused on detecting and mitigating prompt injection attacks.
-- **[AICL Guard](https://github.com/search?q=ai+content+moderation)** — Various content safety classifiers.
-- **[LangSmith / LangChain tracing]** with custom guardrails.
-- **[Ollama + Guardrails]** community integrations for local safe LLM deployment.
-- Many **RAG-specific guardrail** repositories for retrieval safety and output validation.
+- **[TextAttack](https://github.com/QData/TextAttack)** [![GitHub stars](https://img.shields.io/github/stars/QData/TextAttack?style=social&color=white)](https://github.com/QData/TextAttack/stargazers) — Adversarial testing and attack generation. ⚔️
+- **[NeMo Guardrails Examples](https://github.com/NVIDIA/NeMo-Guardrails)** — Production guardrail templates. 📋
+- **[Prompt Security Tools](https://github.com/search?q=prompt+injection+detection)** — Community injection detection. 🕵️
+- **[AICL Guard](https://github.com/search?q=ai+content+moderation)** — Content safety classifiers. 🏷️
+- **[LangSmith / LangChain tracing]** — Trace-based guardrails. 📊
+- **[Ollama + Guardrails]** — Local safe LLM deployment. 🏠
+- **Many RAG-specific guardrail** repositories for retrieval safety. 🗂️
 
-**Frameworks for building custom firewalls**: Combine **LLM Guard**, **NeMo Guardrails**, **Outlines**, and **Guardrails AI** with **LangGraph** for comprehensive, production-grade LLM security layers.
+---
 
-## How to Contribute
+## 🤝 How to Contribute
 
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- LLM security is an evolving field. No single tool provides 100% protection — use defense-in-depth strategies.
-- Self-hosted open-source solutions require careful configuration and ongoing monitoring.
+We love contributions! Follow these steps to add your project:
+1. 🍴 **Fork** the repository.
+2. 📝 **Add** your entry (follow the existing format).
+3. 🚀 **Submit** a Pull Request with a clear description.
 
 ---
 
 ## 📈 Star History
 
-<div align="center">
-   <a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-LLM-Firewalls&type=date&legend=bottom-right">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-LLM-Firewalls&type=date&theme=dark&legend=bottom-right" />
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-LLM-Firewalls&type=date&legend=bottom-right" />
-      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-LLM-Firewalls&type=date&legend=bottom-right" />
-    </picture>
-   </a>
-</div>
+<p align="center">
+  <a href="https://star-history.com/#ishandutta2007/Awesome-LLM-Firewalls&Date">
+    <img src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-LLM-Firewalls&type=date" alt="Star History Chart" width="800">
+  </a>
+</p>
 
+---
 
-**Made for AI engineers, security teams, and responsible AI practitioners.**  
-Let's make LLM deployments more secure, controllable, and trustworthy.
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list. Use of these tools is at your own risk.
+- LLM security is an evolving space; always employ **defense-in-depth**.
+
+**Made with ❤️ for the AI Security Community.**
